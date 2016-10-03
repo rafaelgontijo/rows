@@ -45,9 +45,9 @@ CELL_TYPES = {
 # TODO: add more formatting styles for other types such as currency
 # TODO: styles may be influenced by locale
 FORMATTING_STYLES = {
-        fields.DateField: xlwt.easyxf(num_format_str='yyyy-mm-dd'),
-        fields.DatetimeField: xlwt.easyxf(num_format_str='yyyy-mm-dd hh:mm:ss'),
-        fields.PercentField: xlwt.easyxf(num_format_str='0.00%'),
+        fields.DateField: xlwt.easyxf(num_format_str='dd/mm/yyyy'),
+        fields.DatetimeField: xlwt.easyxf(num_format_str='dd/mm/yyyy hh:mm:ss'),
+        fields.PercentField: xlwt.easyxf(num_format_str='0,00%'),
 }
 
 
